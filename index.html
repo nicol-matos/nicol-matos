@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nicol Fabiana Matos Neyra — Portafolio</title>
+  <meta name="description" content="Portafolio de Nicol Fabiana Matos Neyra. Administración de Negocios (UCSP). Intereses: innovación, estrategia, marketing y publicidad." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Helvetica, Arial; background-color: #f8f6ff; color: #3b0764;}
+    .accent {color: #7c3aed;}
+    .btn {background-color: #7c3aed; color: white; padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 600;}
+    .btn:hover {background-color: #6d28d9;}
+  </style>
+</head>
+<body>
+  <main class="max-w-3xl mx-auto px-4 py-10 text-center">
+
+    <!-- Encabezado -->
+    <header>
+      <img src="./nicol.jpg" alt="Foto de Nicol Fabiana Matos Neyra" class="mx-auto w-48 h-48 rounded-full object-cover shadow-lg border-4 border-purple-300"/>
+      <h1 class="mt-6 text-4xl font-extrabold accent">Nicol Fabiana Matos Neyra</h1>
+      <p class="mt-2 text-purple-800">Estudiante de <strong>Administración de Negocios</strong> — Universidad Católica San Pablo (UCSP)</p>
+      <p class="mt-3 text-purple-900 leading-relaxed">Me interesa construir proyectos que mezclen <strong>estrategia</strong>, <strong>marketing</strong> y <strong>publicidad</strong>. Me gusta convertir mis ideas en acciones en clase, trabajos y proyectos reales.</p>
+    </header>
+
+    <!-- Áreas de interés -->
+    <section class="mt-12 text-left">
+      <h2 class="text-2xl font-bold accent mb-4">Áreas de interés</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Innovación empresarial</li>
+        <li>Publicidad</li>
+        <li>Estrategia y marketing</li>
+      </ul>
+    </section>
+
+    <!-- Cursos actuales -->
+    <section class="mt-12 text-left">
+      <h2 class="text-2xl font-bold accent mb-4">Cursos actuales</h2>
+      <div class="grid sm:grid-cols-2 gap-3">
+        <div class="p-3 rounded-lg bg-purple-100 border border-purple-200">Cálculo en una variable</div>
+        <div class="p-3 rounded-lg bg-purple-100 border border-purple-200">Historia I</div>
+        <div class="p-3 rounded-lg bg-purple-100 border border-purple-200">Antropología</div>
+        <div class="p-3 rounded-lg bg-purple-100 border border-purple-200">Pensamiento computacional</div>
+        <div class="p-3 rounded-lg bg-purple-100 border border-purple-200">Análisis financiero</div>
+      </div>
+    </section>
+
+    <!-- Red de contacto -->
+    <section class="mt-12 text-left">
+      <h2 class="text-2xl font-bold accent mb-4">Red de contacto</h2>
+      <ul class="mt-2">
+        <li>
+          <a class="text-purple-700 underline font-medium" href="https://anyelodosantosb-wq.github.io/" target="_blank" rel="noopener">Anyelo Do Santos</a>
+          <span class="text-purple-800"> — Jefe</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contacto -->
+    <section class="mt-12 text-left">
+      <h2 class="text-2xl font-bold accent mb-4">Contacto</h2>
+      <p class="mt-1">Correo: <a class="text-purple-700 underline" href="mailto:nicol.matos@example.com">nicol.matos@example.com</a></p>
+      <p class="mt-1">LinkedIn: <a class="text-purple-700 underline" href="https://www.linkedin.com/in/nicol-fabiana-matos-neyra-0779ba386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">nicol-fabiana-matos-neyra</a></p>
+    </section>
+
+    <footer class="mt-16 text-center text-sm text-purple-600">© <span id="y"></span> Nicol Fabiana Matos Neyra — Hecho con 💜</footer>
+  </main>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
